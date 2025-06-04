@@ -1,5 +1,4 @@
-
-import { MapPin, Mail, Phone } from "lucide-react";
+import { MapPin, Mail, Phone, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -52,8 +51,33 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© 2024 Nodysys. Todos os direitos reservados.</p>
+        <div className="border-t border-gray-800 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-gray-400 text-center md:text-left mb-4 md:mb-0">
+              © 2024 Nodysys. Todos os direitos reservados.
+            </p>
+            <div className="flex items-center space-x-4">
+              <span className="text-gray-400 text-sm">Redes Sociais:</span>
+              <div className="flex space-x-3">
+                <a 
+                  href="https://linkedin.com/company/nodsys" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
+                >
+                  <Linkedin className="w-4 h-4 text-gray-400 hover:text-white" />
+                </a>
+                <a 
+                  href="https://instagram.com/nodsys" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
+                >
+                  <Instagram className="w-4 h-4 text-gray-400 hover:text-white" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
