@@ -21,7 +21,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex items-center space-x-8">
             <a href="#inicio" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               Início
             </a>
@@ -34,6 +34,12 @@ const Header = () => {
             <a href="#contato" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
               Contato
             </a>
+            <button 
+              className="px-6 py-2 rounded-md font-medium transition-colors"
+              style={{ backgroundColor: '#39ADBE', color: '#fafafa' }}
+            >
+              Iniciar Projeto
+            </button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -58,6 +64,12 @@ const Header = () => {
               <a href="#contato" className="text-gray-700 hover:text-green-600 transition-colors font-medium">
                 Contato
               </a>
+              <button 
+                className="px-6 py-2 rounded-md font-medium transition-colors text-left"
+                style={{ backgroundColor: '#39ADBE', color: '#fafafa' }}
+              >
+                Iniciar Projeto
+              </button>
             </div>
           </nav>
         )}

@@ -62,7 +62,7 @@ const Hero = () => {
                   <img 
                     src="/lovable-uploads/3cf8a56c-fb96-498b-8c04-2b7e5c8fa76f.png" 
                     alt="Team working" 
-                    className="w-48 h-48 lg:w-64 lg:h-64 object-cover rounded-full"
+                    className="w-64 h-64 lg:w-80 lg:h-80 object-cover rounded-full"
                   />
                   <div className="absolute inset-0 bg-green-500 opacity-15 rounded-full mix-blend-overlay"></div>
                 </div>
