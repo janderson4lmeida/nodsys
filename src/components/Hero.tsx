@@ -58,11 +58,14 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-green-400 via-green-500 to-teal-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/fe753d29-b060-4e4e-916c-7bac321d4d79.png" 
-                  alt="NeoCode Logo" 
-                  className="w-48 h-48 lg:w-64 lg:h-64 object-contain"
-                />
+                <div className="relative">
+                  <img 
+                    src="/lovable-uploads/7268abb6-4729-43aa-a7d8-6b3bd207062f.png" 
+                    alt="Nodsys Logo" 
+                    className="w-48 h-48 lg:w-64 lg:h-64 object-contain"
+                  />
+                  <div className="absolute inset-0 bg-green-500 opacity-15 rounded-full mix-blend-overlay"></div>
+                </div>
               </div>
             </div>
           </div>
