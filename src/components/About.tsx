@@ -1,40 +1,29 @@
-
 import { Target, Lightbulb, Rocket, Heart } from "lucide-react";
-
 const About = () => {
-  const values = [
-    {
-      icon: Target,
-      title: "Foco no Cliente",
-      description: "Cada projeto é desenvolvido pensando nas necessidades específicas do cliente."
-    },
-    {
-      icon: Lightbulb,
-      title: "Inovação",
-      description: "Utilizamos as mais modernas tecnologias para criar soluções únicas."
-    },
-    {
-      icon: Rocket,
-      title: "Agilidade",
-      description: "Entregamos projetos de qualidade dentro dos prazos estabelecidos."
-    },
-    {
-      icon: Heart,
-      title: "Paixão",
-      description: "Amamos o que fazemos e isso se reflete em cada linha de código."
-    }
-  ];
-
-  return (
-    <section id="sobre" className="py-20 bg-gradient-to-br from-[#fafafa] to-green-50">
+  const values = [{
+    icon: Target,
+    title: "Foco no Cliente",
+    description: "Cada projeto é desenvolvido pensando nas necessidades específicas do cliente."
+  }, {
+    icon: Lightbulb,
+    title: "Inovação",
+    description: "Utilizamos as mais modernas tecnologias para criar soluções únicas."
+  }, {
+    icon: Rocket,
+    title: "Agilidade",
+    description: "Entregamos projetos de qualidade dentro dos prazos estabelecidos."
+  }, {
+    icon: Heart,
+    title: "Paixão",
+    description: "Amamos o que fazemos e isso se reflete em cada linha de código."
+  }];
+  return <section id="sobre" className="py-20 bg-gradient-to-br from-[#fafafa] to-green-50">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               Sobre a
-              <span className="block bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">
-                NeoCode
-              </span>
+              <span className="block bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">Nodsys</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Somos uma startup de tecnologia nascida em Fortaleza, com a missão de 
@@ -61,11 +50,7 @@ const About = () => {
           </div>
           
           <div className="grid grid-cols-2 gap-6">
-            {values.map((value, index) => (
-              <div 
-                key={index}
-                className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-              >
+            {values.map((value, index) => <div key={index} className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-teal-500 rounded-xl flex items-center justify-center mb-4">
                   <value.icon className="w-6 h-6 text-white" />
                 </div>
@@ -75,13 +60,10 @@ const About = () => {
                 <p className="text-sm text-gray-600">
                   {value.description}
                 </p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

@@ -1,13 +1,10 @@
-
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 const Contact = () => {
-  return (
-    <section id="contato" className="py-20 bg-white">
+  return <section id="contato" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -33,7 +30,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">contato@neocode.com.br</p>
+                  <p className="text-gray-600">contato@nodsys.com.br</p>
                 </div>
               </div>
               
@@ -43,7 +40,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Telefone</h4>
-                  <p className="text-gray-600">(85) 9 9999-9999</p>
+                  <p className="text-gray-600">(85) 99286-5830</p>
                 </div>
               </div>
               
@@ -72,14 +69,8 @@ const Contact = () => {
               </div>
               <Input placeholder="Empresa" />
               <Input placeholder="Telefone" />
-              <Textarea 
-                placeholder="Conte-nos sobre seu projeto..." 
-                className="min-h-[120px]"
-              />
-              <Button 
-                className="w-full bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white"
-                size="lg"
-              >
+              <Textarea placeholder="Conte-nos sobre seu projeto..." className="min-h-[120px]" />
+              <Button className="w-full bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white" size="lg">
                 Enviar Mensagem
                 <Send className="ml-2 w-4 h-4" />
               </Button>
@@ -87,8 +78,6 @@ const Contact = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
