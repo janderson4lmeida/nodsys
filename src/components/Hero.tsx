@@ -60,9 +60,9 @@ const Hero = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative">
                   <img 
-                    src="/lovable-uploads/7268abb6-4729-43aa-a7d8-6b3bd207062f.png" 
-                    alt="Nodsys Logo" 
-                    className="w-48 h-48 lg:w-64 lg:h-64 object-contain"
+                    src="/lovable-uploads/3cf8a56c-fb96-498b-8c04-2b7e5c8fa76f.png" 
+                    alt="Team working" 
+                    className="w-48 h-48 lg:w-64 lg:h-64 object-cover rounded-full"
                   />
                   <div className="absolute inset-0 bg-green-500 opacity-15 rounded-full mix-blend-overlay"></div>
                 </div>
