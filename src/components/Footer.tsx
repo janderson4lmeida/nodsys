@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/7268abb6-4729-43aa-a7d8-6b3bd207062f.png" 
+                  src="/imagens-uploads/7268abb6-4729-43aa-a7d8-6b3bd207062f.png" 
                   alt="Nodsys Logo" 
                   className="w-10 h-10 object-contain"
                 />
@@ -60,7 +60,7 @@ const Footer = () => {
               <span className="text-gray-400 text-sm">Redes Sociais:</span>
               <div className="flex space-x-3">
                 <a 
-                  href="https://linkedin.com/company/nodsys" 
+                  href="https://www.linkedin.com/in/nodsys-systems-294595369/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
@@ -68,7 +68,7 @@ const Footer = () => {
                   <Linkedin className="w-4 h-4 text-gray-400 hover:text-white" />
                 </a>
                 <a 
-                  href="https://instagram.com/nodsys" 
+                  href="https://www.instagram.com/nod.sys/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"

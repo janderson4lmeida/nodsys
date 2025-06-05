@@ -60,7 +60,7 @@ const Hero = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative">
                   <img 
-                    src="/lovable-uploads/3cf8a56c-fb96-498b-8c04-2b7e5c8fa76f.png" 
+                    src="/imagens-uploads/3cf8a56c-fb96-498b-8c04-2b7e5c8fa76f.png" 
                     alt="Team working" 
                     className="w-64 h-64 lg:w-80 lg:h-80 object-cover rounded-full"
                   />

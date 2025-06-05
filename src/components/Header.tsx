@@ -12,7 +12,7 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-lg flex items-center justify-center">
               <img 
-                src="/lovable-uploads/7268abb6-4729-43aa-a7d8-6b3bd207062f.png" 
+                src="/imagens-uploads/7268abb6-4729-43aa-a7d8-6b3bd207062f.png" 
                 alt="Nodsys Logo" 
                 className="w-10 h-10 object-contain"
               />
